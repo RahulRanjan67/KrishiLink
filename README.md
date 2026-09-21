@@ -54,7 +54,6 @@ KrishiLink/
 ├── ai/                         # Intentionally disabled future-AI interfaces
 ├── static/                     # Frontend assets
 ├── templates/                  # Jinja2 pages and role-specific views
-├── tests/                      # Basic service-layer tests
 ├── database.py                 # SQLite schema, queries, and seed helpers
 ├── main.py                     # FastAPI application and routes
 ├── services.py                 # Business rules and transaction helpers
