@@ -69,7 +69,7 @@ KrishiLink/
 
 - Python 3.10+ recommended
 - `pip`
-- No Node.js or pnpm is required
+
 
 ## Setup
 
@@ -172,22 +172,6 @@ The application is mounted under `/api` by default.
 /api/healthz          → health check
 ```
 
-## Testing
-
-Run the current test suite with:
-
-```bash
-python -m unittest tests/test_services.py -v
-```
-
-The repository currently includes focused tests for:
-
-- deterministic requirement/supply matching score calculations
-- net farmer realisation calculations
-- invalid lot-state transitions
-
-This is **not** a comprehensive integration, security, or load-testing suite.
-
 ## Data and reset behaviour
 
 The SQLite database is created at:
@@ -240,6 +224,3 @@ The `ai/` directory contains intentionally disabled interfaces for possible futu
 
 These interfaces are **not required for the current application flow**. Any future AI-generated value should pass through the same validation and business-rule layer as normal user input.
 
-## License
-
-No license has been selected for this prototype yet. Add one before redistributing the repository if you want to grant explicit reuse permissions.
